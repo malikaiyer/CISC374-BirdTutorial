@@ -13,10 +13,14 @@ public class LogicScript : MonoBehaviour
     public GameObject gameOverScreen;
     public GameObject titleScreen;
 
+    public AudioSource audio;
+    [SerializeField] private AudioClip scoreSound;
+
     void Start()
     {
         highScore = PlayerPrefs.GetInt("highScore", 0);
         UpdateHighScoreUI();
+        audio = GetComponent<AudioSource>();
     }
 
     [ContextMenu("AddScore")] 
@@ -30,6 +34,8 @@ public class LogicScript : MonoBehaviour
         {
             playerScore = playerScore + scoreToAdd;
             scoreText.text = playerScore.ToString();
+            audio.clip = scoreSound;
+            audio.Play();
         }
 
         if(playerScore > highScore)

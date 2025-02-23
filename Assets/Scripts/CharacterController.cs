@@ -17,6 +17,9 @@ public class CharacterController : MonoBehaviour
     public Sprite flapDownSprite;  // Assign in Inspector (wing down)
     private bool gameStarted = false;
 
+    private AudioSource audio;
+    [SerializeField] private AudioClip jumpSound;
+
     void Start()
     {
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
@@ -24,6 +27,7 @@ public class CharacterController : MonoBehaviour
         wingsRenderer = transform.Find("Wings").GetComponent<SpriteRenderer>();  
 
         myRigidbody.simulated = false;
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -58,6 +62,8 @@ public class CharacterController : MonoBehaviour
     void Jump(){
         player.GetComponent<Rigidbody2D>().linearVelocity = Vector2.up * 10;
         // myRigidbody.linearVelocity = Vector2.up * flapStrength;
+        audio.clip = jumpSound;
+        audio.Play();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
