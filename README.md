@@ -16,4 +16,4 @@ Brainstormed list of juicy features:
 7. **Add clouds with particle effects [implemented]**
 
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/f-E0Z-dzuIg])
+[![Watch the video](https://img.youtube.com/vi/f-E0Z-dzuIg/maxresdefault.jpg)](https://youtu.be/f-E0Z-dzuIg])
