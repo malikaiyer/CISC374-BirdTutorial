@@ -14,3 +14,6 @@ Brainstormed list of juicy features:
 5. Change the background of the game to resemble a field
 6. **Add wind flapping movement/animation [implemented]**
 7. **Add clouds with particle effects [implemented]**
+
+
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/f-E0Z-dzuIg])
