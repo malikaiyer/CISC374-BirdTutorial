@@ -17,4 +17,4 @@ Brainstormed list of juicy features:
 
 
 **Video:**
-[![Watch the video](https://img.youtube.com/vi/f-E0Z-dzuIg/maxresdefault.jpg)](https://youtu.be/f-E0Z-dzuIg])
+[![Watch the video](https://img.youtube.com/vi/byuMclxlsp0/maxresdefault.jpg)](https://youtu.be/byuMclxlsp0)
